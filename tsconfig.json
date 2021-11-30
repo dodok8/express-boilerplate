@@ -2,13 +2,15 @@
   "compilerOptions": {
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
     "esModuleInterop": true,
     "lib": ["ES2019"],
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
     "target": "ES2019",
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "strict": true
   },
   "include": ["./src/*"]
 }

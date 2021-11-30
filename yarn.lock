@@ -1194,31 +1194,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-boilerplate@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "express-boilerplate@workspace:."
-  dependencies:
-    "@koa/cors": ^3.1.0
-    "@koa/router": ^10.1.1
-    "@types/koa": ^2.13.4
-    "@types/koa-logger": ^3.1.2
-    "@types/koa__cors": ^3.0.3
-    "@types/koa__router": ^8.0.10
-    "@types/node": ^16.11.10
-    "@typescript-eslint/eslint-plugin": ^5.4.0
-    "@typescript-eslint/parser": ^5.4.0
-    eslint: ^8.3.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-prettier: ^4.0.0
-    koa: ^2.13.4
-    koa-body: ^4.2.0
-    koa-logger: ^3.2.1
-    prettier: ^2.5.0
-    ts-node-dev: ^1.1.8
-    typescript: ^4.5.2
-  languageName: unknown
-  linkType: soft
-
 "fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
@@ -1779,6 +1754,31 @@ __metadata:
   checksum: 8da5eb00eb43345d9976b830df5973e2eb4d33a6b58735576284b20069a37ce84b34c8b60b18fdbff5e59aadfd6f7a9a03632a1c0c53aa3c84a07dfffd888af9
   languageName: node
   linkType: hard
+
+"koa-boilerplate@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "koa-boilerplate@workspace:."
+  dependencies:
+    "@koa/cors": ^3.1.0
+    "@koa/router": ^10.1.1
+    "@types/koa": ^2.13.4
+    "@types/koa-logger": ^3.1.2
+    "@types/koa__cors": ^3.0.3
+    "@types/koa__router": ^8.0.10
+    "@types/node": ^16.11.10
+    "@typescript-eslint/eslint-plugin": ^5.4.0
+    "@typescript-eslint/parser": ^5.4.0
+    eslint: ^8.3.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-prettier: ^4.0.0
+    koa: ^2.13.4
+    koa-body: ^4.2.0
+    koa-logger: ^3.2.1
+    prettier: ^2.5.0
+    ts-node-dev: ^1.1.8
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
 
 "koa-compose@npm:^4.1.0":
   version: 4.1.0
